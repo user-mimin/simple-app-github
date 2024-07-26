@@ -1,5 +1,5 @@
 services:
   webserver:
-    image: ghcr.io/username_github/nginx-username_adinusa
+    image: ghcr.io/user-mimin/nginx-miminnusa
     ports:
       - "8080:80"
