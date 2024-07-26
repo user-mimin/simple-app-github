@@ -2,7 +2,7 @@ name: Build, Push and Deploy Docker Image
 run-name: Build, Push and Deploy Image
 on: [push]
 env:
-  IMAGE_NAME: "ghcr.io/username_github/nginx-username_adinusa"
+  IMAGE_NAME: "ghcr.io/user-mimin/nginx-miminnusa"
 jobs:
   build-push-image:
     runs-on: ubuntu-latest
